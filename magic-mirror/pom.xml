@@ -1,14 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>smart-life</artifactId>
+        <groupId>com.we.smart</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.we.smart</groupId>
-    <artifactId>smart-life</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>magic-mirror</module>
-    </modules>
-    <name>Maven Quick Start Archetype</name>
+    <artifactId>magic-mirror</artifactId>
+    <packaging>war</packaging>
+    <name>magic-mirror Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
@@ -18,4 +18,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <build>
+        <finalName>magic-mirror</finalName>
+    </build>
 </project>
