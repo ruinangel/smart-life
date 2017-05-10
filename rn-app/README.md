@@ -1,1 +1,1 @@
-# react-native app
+# 基于react-native的手机app控制程序
