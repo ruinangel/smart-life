@@ -1,1 +1,3 @@
-# python 传感器代码
+# python 各种传感器
+
+需要先解压并安装python库【/py-detector/resource/RPi.GPIO-0.6.3.tar.gz】才能使用树莓派的端口监听功能。
