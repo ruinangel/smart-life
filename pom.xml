@@ -9,6 +9,8 @@
         <module>magic-mirror</module>
         <module>smart-common</module>
         <module>smart-mirror</module>
+        <module>smart-neuro</module>
+        <module>smart-brain</module>
     </modules>
     <name>Maven Quick Start Archetype</name>
     <url>http://maven.apache.org</url>
