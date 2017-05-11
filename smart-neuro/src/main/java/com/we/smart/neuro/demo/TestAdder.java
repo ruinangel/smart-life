@@ -1,4 +1,4 @@
-package com.we.smart.neuro.test;
+package com.we.smart.neuro.demo;
 
 import org.python.core.PyFunction;
 import org.python.core.PyInteger;
@@ -13,7 +13,7 @@ public class TestAdder {
 
     public static void main(String[] args) {
         PythonInterpreter interpreter = new PythonInterpreter();
-        interpreter.execfile("smart-neuro/src/main/java/com/we/smart/neuro/test/TestAdder.py");
+        interpreter.execfile("smart-neuro/src/main/java/com/we/smart/neuro/demo/TestAdder.py");
 
         PyFunction func = (PyFunction) interpreter.get("adder", PyFunction.class);
 
