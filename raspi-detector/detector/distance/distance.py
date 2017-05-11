@@ -1,8 +1,5 @@
-#Vcc->5v
-#Trig->IO20
-#Echo->IO21
-#Gnd->GND
-
+#!/usr/bin/env python
+#coding=utf8
 import RPi.GPIO as GPIO
 import time
 
