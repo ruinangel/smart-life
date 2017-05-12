@@ -11,6 +11,7 @@
         <module>smart-mirror</module>
         <module>smart-neuro</module>
         <module>smart-brain</module>
+        <module>smart-sensor</module>
     </modules>
     <name>Maven Quick Start Archetype</name>
     <url>http://maven.apache.org</url>
