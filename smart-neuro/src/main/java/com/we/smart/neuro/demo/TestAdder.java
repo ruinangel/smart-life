@@ -17,7 +17,7 @@ public class TestAdder {
 
         PyFunction func = (PyFunction) interpreter.get("adder", PyFunction.class);
 
-        int a = 2010, b = 2;
+        int a = 1001, b = 999;
         PyObject pyobj = func.__call__(new PyInteger(a), new PyInteger(b));
         System.out.println("anwser = " + pyobj.toString());
     }
